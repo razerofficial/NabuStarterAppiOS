@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6379A0591ACB73D900580599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A0581ACB73D900580599 /* main.m */; };
+		6379A05C1ACB73D900580599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A05B1ACB73D900580599 /* AppDelegate.m */; };
+		6379A05F1ACB73D900580599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A05E1ACB73D900580599 /* ViewController.m */; };
+		6379A0621ACB73D900580599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6379A0601ACB73D900580599 /* Main.storyboard */; };
+		6379A0641ACB73D900580599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6379A0631ACB73D900580599 /* Images.xcassets */; };
+		6379A0671ACB73D900580599 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6379A0651ACB73D900580599 /* LaunchScreen.xib */; };
+		6379A0731ACB73D900580599 /* nabubaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A0721ACB73D900580599 /* nabubaseTests.m */; };
+		6379A0801ACB741400580599 /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A07F1ACB741400580599 /* NabuOpenSDK.framework */; };
+		6379A0811ACB741400580599 /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A07F1ACB741400580599 /* NabuOpenSDK.framework */; };
+		6379A0831ACB748900580599 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A0821ACB748900580599 /* libxml2.dylib */; };
+		6379A0861ACB791200580599 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A0821ACB748900580599 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6379A06D1ACB73D900580599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6379A04B1ACB73D900580599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6379A0521ACB73D900580599;
+			remoteInfo = nabubase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6379A0531ACB73D900580599 /* nabubase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nabubase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6379A0571ACB73D900580599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6379A0581ACB73D900580599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6379A05A1ACB73D900580599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6379A05B1ACB73D900580599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6379A05D1ACB73D900580599 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6379A05E1ACB73D900580599 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6379A0611ACB73D900580599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6379A0631ACB73D900580599 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6379A0661ACB73D900580599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6379A06C1ACB73D900580599 /* nabubaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nabubaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6379A0711ACB73D900580599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6379A0721ACB73D900580599 /* nabubaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nabubaseTests.m; sourceTree = "<group>"; };
+		6379A07F1ACB741400580599 /* NabuOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NabuOpenSDK.framework; sourceTree = "<group>"; };
+		6379A0821ACB748900580599 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6379A0501ACB73D900580599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6379A0831ACB748900580599 /* libxml2.dylib in Frameworks */,
+				6379A0801ACB741400580599 /* NabuOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6379A0691ACB73D900580599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6379A0861ACB791200580599 /* libxml2.dylib in Frameworks */,
+				6379A0811ACB741400580599 /* NabuOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6379A04A1ACB73D900580599 = {
+			isa = PBXGroup;
+			children = (
+				6379A0551ACB73D900580599 /* nabubase */,
+				6379A07E1ACB73EF00580599 /* Frameworks */,
+				6379A06F1ACB73D900580599 /* nabubaseTests */,
+				6379A0541ACB73D900580599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6379A0541ACB73D900580599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6379A0531ACB73D900580599 /* nabubase.app */,
+				6379A06C1ACB73D900580599 /* nabubaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6379A0551ACB73D900580599 /* nabubase */ = {
+			isa = PBXGroup;
+			children = (
+				6379A05A1ACB73D900580599 /* AppDelegate.h */,
+				6379A05B1ACB73D900580599 /* AppDelegate.m */,
+				6379A05D1ACB73D900580599 /* ViewController.h */,
+				6379A05E1ACB73D900580599 /* ViewController.m */,
+				6379A0601ACB73D900580599 /* Main.storyboard */,
+				6379A0631ACB73D900580599 /* Images.xcassets */,
+				6379A0651ACB73D900580599 /* LaunchScreen.xib */,
+				6379A0561ACB73D900580599 /* Supporting Files */,
+			);
+			path = nabubase;
+			sourceTree = "<group>";
+		};
+		6379A0561ACB73D900580599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6379A0571ACB73D900580599 /* Info.plist */,
+				6379A0581ACB73D900580599 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6379A06F1ACB73D900580599 /* nabubaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6379A0721ACB73D900580599 /* nabubaseTests.m */,
+				6379A0701ACB73D900580599 /* Supporting Files */,
+			);
+			path = nabubaseTests;
+			sourceTree = "<group>";
+		};
+		6379A0701ACB73D900580599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6379A0711ACB73D900580599 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6379A07E1ACB73EF00580599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6379A0821ACB748900580599 /* libxml2.dylib */,
+				6379A07F1ACB741400580599 /* NabuOpenSDK.framework */,
+			);
+			name = Frameworks;
+			path = nabubase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6379A0521ACB73D900580599 /* nabubase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6379A0761ACB73D900580599 /* Build configuration list for PBXNativeTarget "nabubase" */;
+			buildPhases = (
+				6379A04F1ACB73D900580599 /* Sources */,
+				6379A0501ACB73D900580599 /* Frameworks */,
+				6379A0511ACB73D900580599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nabubase;
+			productName = nabubase;
+			productReference = 6379A0531ACB73D900580599 /* nabubase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6379A06B1ACB73D900580599 /* nabubaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6379A0791ACB73D900580599 /* Build configuration list for PBXNativeTarget "nabubaseTests" */;
+			buildPhases = (
+				6379A0681ACB73D900580599 /* Sources */,
+				6379A0691ACB73D900580599 /* Frameworks */,
+				6379A06A1ACB73D900580599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6379A06E1ACB73D900580599 /* PBXTargetDependency */,
+			);
+			name = nabubaseTests;
+			productName = nabubaseTests;
+			productReference = 6379A06C1ACB73D900580599 /* nabubaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6379A04B1ACB73D900580599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David Attaie";
+				TargetAttributes = {
+					6379A0521ACB73D900580599 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6379A06B1ACB73D900580599 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6379A0521ACB73D900580599;
+					};
+				};
+			};
+			buildConfigurationList = 6379A04E1ACB73D900580599 /* Build configuration list for PBXProject "nabubase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6379A04A1ACB73D900580599;
+			productRefGroup = 6379A0541ACB73D900580599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6379A0521ACB73D900580599 /* nabubase */,
+				6379A06B1ACB73D900580599 /* nabubaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6379A0511ACB73D900580599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6379A0621ACB73D900580599 /* Main.storyboard in Resources */,
+				6379A0671ACB73D900580599 /* LaunchScreen.xib in Resources */,
+				6379A0641ACB73D900580599 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6379A06A1ACB73D900580599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6379A04F1ACB73D900580599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6379A05F1ACB73D900580599 /* ViewController.m in Sources */,
+				6379A05C1ACB73D900580599 /* AppDelegate.m in Sources */,
+				6379A0591ACB73D900580599 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6379A0681ACB73D900580599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6379A0731ACB73D900580599 /* nabubaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6379A06E1ACB73D900580599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6379A0521ACB73D900580599 /* nabubase */;
+			targetProxy = 6379A06D1ACB73D900580599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6379A0601ACB73D900580599 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6379A0611ACB73D900580599 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6379A0651ACB73D900580599 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6379A0661ACB73D900580599 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6379A0741ACB73D900580599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6379A0751ACB73D900580599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6379A0771ACB73D900580599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabubase",
+				);
+				INFOPLIST_FILE = nabubase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(OTHER_LDFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6379A0781ACB73D900580599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabubase",
+				);
+				INFOPLIST_FILE = nabubase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(OTHER_LDFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6379A07A1ACB73D900580599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabubase",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nabubaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabubase.app/nabubase";
+			};
+			name = Debug;
+		};
+		6379A07B1ACB73D900580599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/nabubase",
+				);
+				INFOPLIST_FILE = nabubaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabubase.app/nabubase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6379A04E1ACB73D900580599 /* Build configuration list for PBXProject "nabubase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6379A0741ACB73D900580599 /* Debug */,
+				6379A0751ACB73D900580599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6379A0761ACB73D900580599 /* Build configuration list for PBXNativeTarget "nabubase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6379A0771ACB73D900580599 /* Debug */,
+				6379A0781ACB73D900580599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6379A0791ACB73D900580599 /* Build configuration list for PBXNativeTarget "nabubaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6379A07A1ACB73D900580599 /* Debug */,
+				6379A07B1ACB73D900580599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6379A04B1ACB73D900580599 /* Project object */;
+}
