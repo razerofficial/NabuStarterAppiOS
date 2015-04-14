@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635992AC1ADDD15E0078EC6B /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635992AB1ADDD15E0078EC6B /* NabuOpenSDK.framework */; };
 		6379A0591ACB73D900580599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A0581ACB73D900580599 /* main.m */; };
 		6379A05C1ACB73D900580599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A05B1ACB73D900580599 /* AppDelegate.m */; };
 		6379A05F1ACB73D900580599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A05E1ACB73D900580599 /* ViewController.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		635992AB1ADDD15E0078EC6B /* NabuOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NabuOpenSDK.framework; path = OpenSDK/NabuOpenSDK.framework; sourceTree = "<group>"; };
 		6379A0531ACB73D900580599 /* nabubase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nabubase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6379A0571ACB73D900580599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6379A0581ACB73D900580599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6379A0831ACB748900580599 /* libxml2.dylib in Frameworks */,
+				635992AC1ADDD15E0078EC6B /* NabuOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +131,7 @@
 		6379A07E1ACB73EF00580599 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				635992AB1ADDD15E0078EC6B /* NabuOpenSDK.framework */,
 				6379A0821ACB748900580599 /* libxml2.dylib */,
 			);
 			name = Frameworks;
@@ -363,6 +367,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nabubase",
+					"$(PROJECT_DIR)/nabubase/OpenSDK",
 				);
 				INFOPLIST_FILE = nabubase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -382,6 +387,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nabubase",
+					"$(PROJECT_DIR)/nabubase/OpenSDK",
 				);
 				INFOPLIST_FILE = nabubase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
