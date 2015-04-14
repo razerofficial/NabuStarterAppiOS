@@ -14,8 +14,6 @@
 		6379A0641ACB73D900580599 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6379A0631ACB73D900580599 /* Images.xcassets */; };
 		6379A0671ACB73D900580599 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6379A0651ACB73D900580599 /* LaunchScreen.xib */; };
 		6379A0731ACB73D900580599 /* nabubaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6379A0721ACB73D900580599 /* nabubaseTests.m */; };
-		6379A0801ACB741400580599 /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A07F1ACB741400580599 /* NabuOpenSDK.framework */; };
-		6379A0811ACB741400580599 /* NabuOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A07F1ACB741400580599 /* NabuOpenSDK.framework */; };
 		6379A0831ACB748900580599 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A0821ACB748900580599 /* libxml2.dylib */; };
 		6379A0861ACB791200580599 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6379A0821ACB748900580599 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
@@ -44,7 +42,6 @@
 		6379A06C1ACB73D900580599 /* nabubaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nabubaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6379A0711ACB73D900580599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6379A0721ACB73D900580599 /* nabubaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nabubaseTests.m; sourceTree = "<group>"; };
-		6379A07F1ACB741400580599 /* NabuOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NabuOpenSDK.framework; sourceTree = "<group>"; };
 		6379A0821ACB748900580599 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -54,7 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6379A0831ACB748900580599 /* libxml2.dylib in Frameworks */,
-				6379A0801ACB741400580599 /* NabuOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6379A0861ACB791200580599 /* libxml2.dylib in Frameworks */,
-				6379A0811ACB741400580599 /* NabuOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				6379A0821ACB748900580599 /* libxml2.dylib */,
-				6379A07F1ACB741400580599 /* NabuOpenSDK.framework */,
 			);
 			name = Frameworks;
 			path = nabubase;
